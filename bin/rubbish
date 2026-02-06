@@ -1,0 +1,13 @@
+#!/USr/bin/env ruby
+# rubbish
+#
+# Make it executable.
+# Set it as your login shell.
+# Watch POSIX purists weep quietly.
+
+require_relative "../lib/shell_vm"
+require_relative "../lib/dsl_context"
+require_relative "../lib/command"
+
+Rubbish::VM.new.repl
+
